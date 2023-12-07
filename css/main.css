@@ -1,0 +1,105 @@
+body{
+    font-size: 1.6rem;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-sol);
+    font-family: var(--primary-font);
+}
+
+.app{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 100vh;
+  border-radius: .5rem;
+  padding: 15rem 5rem 15rem 5rem;
+}
+
+.app > img{
+  margin-bottom: 1rem;
+}
+
+.app h1{
+  font-weight: 400;
+  font-size: 6.2rem;
+}
+.app h2{
+  font-weight: 500;
+}
+.app h1, h2, p{
+  color: var(--text-color);
+}
+
+.local{
+  margin-bottom: 3rem;
+  font-weight: 600;
+  color: var(--fc-sol);
+}
+
+.media{
+  margin-top: 1rem;
+  font-size: 2rem;
+}
+
+.details span{
+  color: var(--text-color);
+}
+
+.MinAndMax{
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.details{
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  margin-bottom: 5rem;
+}
+
+.details_temp{
+  display: flex;
+  gap: 1rem;
+  justify-content: left;
+}
+
+.search{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search input{
+  padding: 1rem 10rem 1rem .7rem;
+  border-radius: .5rem 0rem 0rem .5rem;
+  border: #c2c2c2;
+}
+
+.search button{
+  width: 4rem;
+  height: 3.5rem;
+  background-color:rgb(22, 107, 182);
+  border: none;
+  cursor: pointer;
+  border-radius: 0rem .5rem .5rem 0rem;
+}
+.search button:hover{
+  background-color: rgb(25, 94, 155);
+}
+
+@media screen and (max-width: 40.5rem) {
+  .app{
+    padding: 5rem 3rem 5rem 3rem;
+  }
+}
+
+@media screen and (max-width: 36.3rem) {
+  .app{
+    padding: 5rem 0rem 5rem 0rem;
+  }
+}

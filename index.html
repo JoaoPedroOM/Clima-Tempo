@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clima tempo</title>
+
+  <script type='text/javascript' src="js/config.js"></script>
+  <script src="./js/main.js" type="module" defer></script>
+  <link href="./css/style.css" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <link rel="shortcut icon" href="./img/favicon.png" />
+
+</head>
+<body>
+  
+  <main>
+    <div class="app">
+        <p class="local">Bem vindo!</p>
+
+        <img id="icon-img" src="./img/01d.png" alt="Icone do clima">
+        <h2 class="description">Dia ensolarado</h2>
+
+        <p class="media">Média de:</p>
+        <h1 id="media">34°C</h1>
+
+      <div class="MinAndMax">
+        <p class="tempMinima">&darr; 17°</p>
+        <p class="tempMaxima">&uarr; 30°</p>
+      </div>
+
+      <div class="details">
+        <div class="details_temp">
+          <span class="material-symbols-outlined">air</span><p class="ventos">Ventos a 15 km/h</p>
+        </div>
+        <div class="details_temp"> 
+          <span class="material-symbols-outlined">humidity_low</span><p class="umidade">Umidade do ar 40%</p>
+        </div>
+      </div>
+
+      <div class="search">
+        <input id="search" placeholder="Digite o nome da cidade">
+        <button id="buttonSearch"><span class="material-symbols-outlined">search</span></button>
+      </div>
+    </div>
+  </main>
+
+</body>
+</html>
