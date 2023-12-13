@@ -13,11 +13,6 @@ Este repositório contém um projeto web simples desenvolvido para praticar o co
 - CSS
 - JavaScript
 
-## Instruções de Uso
-1. Clone o repositório em sua máquina local.
-2. Abra o arquivo `index.html` em seu navegador web.
-3. Explore a interface simples do site e observe como os dados da API são consumidos e exibidos.
-
 ## Aprendizados Destacados 🚀
 - Manipulação de solicitações assíncronas com JavaScript.
 - Integração de dados externos em um site estático.
